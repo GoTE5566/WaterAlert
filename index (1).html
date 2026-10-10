@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>น้ำมาไหม? นนทบุรี</title>
+<meta name="theme-color" content="#0f6f8f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="น้ำมาไหม?">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;600;700&display=swap">
+<style>
+:root{--bg:#eef3f6;--card:#fff;--ink:#12303f;--mute:#5b7482;--line:#b9cbd6;--s0:#2f8f6b;--s1:#c99a14;--s2:#d9692a;--s3:#b8322f;--accent:#0f6f8f;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1b23;--card:#16282f;--ink:#e3eef3;--mute:#8fa8b5;--line:#2f4856;--accent:#4cb8da}}
+:root[data-theme="dark"]{--bg:#0e1b23;--card:#16282f;--ink:#e3eef3;--mute:#8fa8b5;--line:#2f4856;--accent:#4cb8da}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans Thai","Noto Sans Thai",Tahoma,sans-serif;line-height:1.6}
+main{max-width:640px;margin:0 auto;padding:20px 16px 40px}
+h1{font-size:1.45rem;margin:0 0 4px}
+.sub{color:var(--mute);margin:0 0 16px;font-size:.92rem}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:18px}
+.panel h2{font-size:1rem;margin:0 0 10px}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+label{display:block;font-size:.88rem;color:var(--mute);flex:1 1 140px}
+input[type=number],select{width:100%;margin-top:3px;padding:8px;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px}
+.chk{display:flex;gap:8px;align-items:center;color:var(--ink);flex:1 1 100%;margin-top:6px}
+.chk input{width:18px;height:18px}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.river{position:relative;padding-left:34px}
+.river:before{content:"";position:absolute;left:11px;top:14px;bottom:14px;width:8px;border-radius:4px;background:linear-gradient(var(--c1),var(--c2));}
+.st{position:relative;background:var(--card);border:1px solid var(--line);border-left:6px solid var(--c);border-radius:10px;padding:12px 14px}
+.st:before{content:"";position:absolute;left:-34px;top:18px;width:22px;height:22px;border-radius:50%;background:var(--c);border:4px solid var(--bg)}
+.st h3{margin:0;font-size:1.02rem;display:flex;justify-content:space-between;gap:8px;align-items:center}
+.badge{font-size:.8rem;font-weight:700;color:#fff;background:var(--c);padding:2px 10px;border-radius:99px;white-space:nowrap}
+.st p{margin:6px 0 0;font-size:.92rem}
+.gap{padding:6px 0 6px 4px;font-size:.84rem;color:var(--mute)}
+.links{display:flex;flex-direction:column;gap:6px}
+.links a{color:var(--accent);font-weight:600}
+.note{font-size:.82rem;color:var(--mute);margin-top:14px}
+.scroll{overflow-x:auto;margin-top:10px}table{border-collapse:collapse;width:100%;min-width:480px;font-size:.9rem}th,td{border:1px solid var(--line);padding:6px 8px;text-align:left}th{background:var(--bg);color:var(--mute);font-weight:600}td input{width:84px;margin:0;padding:5px}td small{display:block;color:var(--mute)}.sb{font-weight:700}.hero{border-radius:14px;overflow:hidden;border:1px solid var(--line);margin-bottom:16px;background:#cfe8f3}
+.hero svg{display:block;width:100%;height:auto}
+.hcap{background:var(--card);padding:10px 14px;display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.hcap b{font-size:1.05rem}.hcap span{font-size:.88rem;color:var(--mute)}
+#wv{animation:wave 5s linear infinite}#duck{animation:bob 2.6s ease-in-out infinite}
+#wg{transition:transform 1.2s ease}
+@keyframes wave{to{transform:translateX(-320px)}}@keyframes bob{50%{transform:translateY(-4px)}}
+@media (prefers-reduced-motion:reduce){#wv,#duck{animation:none}#wg{transition:none}}
+</style>
+</head>
+<body>
+<main>
+<div class="hero"><svg viewBox="0 0 320 200" role="img" aria-label="ภาพการ์ตูนคนลอยคอในน้ำ ระดับน้ำสูงขึ้นตามความเสี่ยง">
+<rect width="320" height="200" fill="#cfe8f3"/><circle cx="268" cy="38" r="18" fill="#ffe08a"/>
+<g id="arms" style="display:none"><path d="M138 128 L118 92" stroke="#f2c29b" stroke-width="9" stroke-linecap="round"/><path d="M182 128 L202 92" stroke="#f2c29b" stroke-width="9" stroke-linecap="round"/></g>
+<rect x="136" y="116" width="48" height="90" rx="16" fill="#e8574f"/>
+<rect x="152" y="104" width="16" height="16" fill="#f2c29b"/>
+<circle cx="160" cy="92" r="22" fill="#f2c29b"/>
+<path d="M138 90 Q140 66 160 66 Q182 66 182 90 Q172 78 160 78 Q148 78 138 90Z" fill="#3b2a20"/>
+<circle cx="152" cy="94" r="2.6" fill="#222"/><circle cx="168" cy="94" r="2.6" fill="#222"/>
+<path id="mouth" d="M151 104 Q160 111 169 104" stroke="#222" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path id="sweat" d="M184 82 q4 7 0 10 q-4 -3 0 -10z" fill="#5bb4e5" style="display:none"/>
+<g id="wg" style="transform:translateY(165px)"><g id="wv"><path d="M0 0 Q20 -9 40 0 T80 0 T120 0 T160 0 T200 0 T240 0 T280 0 T320 0 T360 0 T400 0 T440 0 T480 0 T520 0 T560 0 T600 0 T640 0 V140 H0Z" fill="#2b8fb8" fill-opacity=".82"/></g></g>
+<g id="duck"><ellipse cx="262" cy="170" rx="13" ry="8" fill="#ffd23f"/><circle cx="270" cy="161" r="7" fill="#ffd23f"/><path d="M276 161 l7 2 l-7 2z" fill="#f08a24"/><circle cx="271" cy="159.5" r="1.3" fill="#222"/></g>
+</svg>
+<div class="hcap"><b id="hb">นนทบุรี: ปกติ</b><span id="hs"></span></div></div>
+<h1>น้ำมาไหม? ทางเดินน้ำเจ้าพระยา ลงสู่นนทบุรี</h1>
+<p class="sub">กรอกตัวเลขล่าสุดจากกรมชลประทาน 2 ช่อง หน้านี้จะไล่ผลให้ทั้ง 4 จุด</p>
+
+<section class="panel">
+<h2>ตัวเลขล่าสุด (ค่าเริ่มต้นคือรายงาน 06.00 น. 7 ต.ค. 2569 ของกรมชลประทาน (เขื่อนลดเหลือ 2,400 ตั้งแต่ 13.00 น.))</h2>
+<div class="row">
+<label>น้ำไหลผ่านนครสวรรค์ C.2 (ลบ.ม./วิ)<input id="nsw" type="number" min="0" inputmode="numeric" value="1915"></label>
+<label>ระบายท้ายเขื่อนเจ้าพระยา (ลบ.ม./วิ)<input id="dam" type="number" min="0" inputmode="numeric" value="2400"></label>
+<label>ที่อยู่ของคุณในนนทบุรี
+<select id="levee"><option value="out">ริมน้ำ / นอกแนวป้องกัน</option><option value="in">ในแนวป้องกัน / ห่างแม่น้ำ</option></select></label>
+<label class="chk"><input id="pasak" type="checkbox">แม่น้ำป่าสักปล่อยน้ำมาก (เขื่อนพระรามหก/ป่าสักฯ)</label>
+<label class="chk"><input id="tide" type="checkbox" checked>ช่วงน้ำทะเลหนุนสูง (จังหวัดนนทบุรีประกาศหนุน 5-19 ต.ค. 69)</label>
+</div>
+</section>
+
+<div class="river" id="river"></div>
+
+<section class="panel" style="margin-top:18px">
+<h2>ระดับน้ำจริงริมแม่น้ำ (ม.รทก.) เรียงจากเหนือน้ำลงมา</h2>
+<label style="max-width:240px">จุดเฝ้าระวัง (ม.รทก.)<input id="warn" type="number" step="0.01" value="1.30"></label>
+<div class="scroll"><table id="gt"><thead><tr><th>จุดวัด</th><th>ระดับน้ำ</th><th>ตลิ่ง</th><th>สถานะ</th></tr></thead><tbody></tbody></table></div>
+<p class="note" style="margin-top:8px">กรอกเฉพาะช่องสีขาว ช่องว่างคือไม่พบตัวเลขเผยแพร่ จุดเฝ้าระวัง +1.30 มาจากรายงานเก่าของ จ.นนทบุรี (ที่สถานี C.22 บางตลาด) ใช้เป็นค่าประมาณกับทุกจุด ดูตัวเลขจริงที่ nonthaburi.thaiwater.net/wl</p>
+</section>
+<section class="panel">
+<h2>เปิดดูตัวเลขจริง</h2>
+<div class="links">
+<a href="https://nonthaburi.thaiwater.net/wl" target="_blank" rel="noopener">ศูนย์ข้อมูลน้ำจังหวัดนนทบุรี: ระดับน้ำรายสถานี</a>
+<a href="https://swoc.rid.go.th" target="_blank" rel="noopener">กรมชลประทาน SWOC: อัตราระบายเขื่อนเจ้าพระยา และ C.2</a>
+<a href="https://www.thaiwater.net" target="_blank" rel="noopener">ThaiWater: ระดับน้ำรายสถานี</a>
+<a href="https://dds.bangkok.go.th" target="_blank" rel="noopener">สำนักการระบายน้ำ กทม.: ระดับน้ำปากคลอง น้ำหนุน</a>
+</div>
+</section>
+
+<p class="note">หน้านี้ดึงข้อมูลสดอัตโนมัติไม่ได้ ต้องกรอกตัวเลขเอง เกณฑ์ปรับจากประกาศฤดูน้ำนี้ (อยุธยาและท้ายเขื่อน: 1,000 / 1,800 / 3,000 ลบ.ม./วิ ส่วนนนทบุรี: 2,200 / 3,000 / 3,500 โดยน้ำทะเลหนุนและน้ำป่าสักเพิ่มให้อีก 1 ระดับ) และเวลาเดินทางของน้ำเป็นค่าประมาณเพื่อเฝ้าระวัง ไม่ใช่ประกาศทางการ ให้ยึดประกาศของ สทนช. กรมชลประทาน และจังหวัดเป็นหลัก</p>
+</main>
+<script>
+var N=["ปกติ","เฝ้าระวัง","เตือน","เสี่ยงสูง"],C=["var(--s0)","var(--s1)","var(--s2)","var(--s3)"];
+var ids=["nsw","dam","levee","pasak","tide"],VER="2026-10-07";
+function load(){try{var s=JSON.parse(localStorage.getItem("floodpath")||"null");if(!s)return;ids.forEach(function(i){var e=document.getElementById(i);if(i in s&&!((i==="nsw"||i==="dam")&&s.v!==VER)){if(e.type==="checkbox")e.checked=s[i];else e.value=s[i];}})}catch(e){}}
+function save(){try{var s={};ids.forEach(function(i){var e=document.getElementById(i);s[i]=e.type==="checkbox"?e.checked:e.value});s.v=VER;localStorage.setItem("floodpath",JSON.stringify(s))}catch(e){}}
+function hero(n){var y=[165,150,134,124][n];document.getElementById("wg").style.transform="translateY("+y+"px)";
+ document.getElementById("mouth").setAttribute("d",["M151 104 Q160 111 169 104","M152 105 Q160 109 168 105","M152 107 L168 107","M152 110 Q160 102 168 110"][n]);
+ document.getElementById("arms").style.display=n>=3?"block":"none";document.getElementById("sweat").style.display=n>=2?"block":"none";
+ document.getElementById("hb").textContent="นนทบุรี: "+N[n];document.getElementById("hb").style.color=C[n];
+ document.getElementById("hs").textContent=["น้ำยังต่ำ สบายใจได้","น้ำเริ่มสูง ยังเดินเล่นได้","น้ำถึงคอแล้ว เตรียมยกของ","น้ำท่วมถึงคาง ทำตามประกาศท้องถิ่น"][n]}
+function lv(d){return d>=3000?3:d>=1800?2:d>=1000?1:0}
+function lvN(d){return d>=3500?3:d>=3000?2:d>=2200?1:0}
+function clamp(x){return Math.max(0,Math.min(3,x))}
+function render(){
+ var nsw=+document.getElementById("nsw").value||0,dam=+document.getElementById("dam").value||0;
+ var inside=document.getElementById("levee").value==="in",pasak=document.getElementById("pasak").checked,tide=document.getElementById("tide").checked;
+ var base=lv(dam),aya=clamp(base+(pasak?1:0)),non=clamp(lvN(dam)+(pasak?1:0)+(tide?1:0)-(inside?1:0));
+ var up=nsw>dam*1.15,nswTxt=up?"น้ำเหนือมากกว่าที่เขื่อนระบายอยู่ เขื่อนมีแนวโน้มต้องเพิ่มการระบายในอีก 2-3 วัน":"น้ำที่ไหลลงมายังไม่เกินที่เขื่อนระบาย ยังไม่มีแรงดันเพิ่ม";
+ var nswL=up?1:0;
+ var ayaTxt=[ "น้ำในแม่น้ำปกติ","ลุ่มต่ำนอกคันกั้นน้ำ (บางบาล เสนา ผักไห่) น้ำจะเริ่มสูงขึ้น","พื้นที่ริมน้ำนอกคันกั้นน้ำท่วมแน่นอน ในคันเริ่มต้องเฝ้าดู","น้ำสูงมาก ติดตามประกาศจังหวัดทุกวัน"][aya]+(pasak?" (รวมน้ำป่าสัก)":"");
+ var nonTxt=["ยังไม่น่ากังวล","ระดับน้ำสูงขึ้น เฝ้าดูท่าน้ำและแนวตลิ่ง","เตรียมยกของ ริมน้ำนอกแนวป้องกันมีโอกาสท่วมขัง","เตรียมอพยพของและคน ตามประกาศท้องถิ่น"][non]+(tide&&non>0?" น้ำทะเลหนุนซ้ำเติม":"")+(inside?" (ในแนวป้องกัน ลดความเสี่ยงลง 1 ระดับ)":"");
+ var damTxt=["ระบายในระดับปกติ","ระบายเพิ่ม น้ำท้ายเขื่อนเริ่มสูงขึ้น","ระบายมาก พื้นที่ลุ่มต่ำท้ายเขื่อนได้รับผลกระทบ","ระบายสูงมาก ผลกระทบต่อเนื่องถึงปทุมธานี นนทบุรี"][base];
+ var rows=[["นครสวรรค์ (C.2)",nswL,nswTxt,"รับน้ำจากปิง วัง ยม น่าน"],["เขื่อนเจ้าพระยา (ชัยนาท)",base,damTxt],["อยุธยา (บางบาล เสนา ป่าสัก)",aya,ayaTxt],["นนทบุรี",non,nonTxt]];
+ var gaps=["น้ำเดินทางต่อประมาณ 2-3 วัน","น้ำถึงอยุธยาประมาณ 1-2 วัน","น้ำถึงนนทบุรีประมาณ 2-3 วัน"];
+ var h="";rows.forEach(function(r,i){
+  h+='<div class="st" style="--c:'+C[r[1]]+'"><h3>'+r[0]+'<span class="badge">'+N[r[1]]+'</span></h3><p>'+r[2]+'</p></div>';
+  if(i<3)h+='<div class="gap">↓ '+gaps[i]+'</div>';
+ });
+ var el=document.getElementById("river");el.innerHTML=h;
+ el.style.setProperty("--c1",C[nswL]);el.style.setProperty("--c2",C[non]);hero(non);
+ save();
+}
+load();ids.forEach(function(i){document.getElementById(i).addEventListener("input",render);document.getElementById(i).addEventListener("change",render)});render();
+
+var G=[["สะพานปทุมธานี 2","","",""],["ท่าน้ำปากเกร็ด","1.98","","30 ก.ย. 69"],["สะพานนวลฉวี (ปากเกร็ด)","2.31","2.5","~1 ต.ค. 69"],["สะพานพระนั่งเกล้า","","",""],["ท่าน้ำนนทบุรี","","",""],["คลองอ้อมนนท์","1.34","1.85","อ้างอิงของ Lotus นครอินทร์ / Homepro ราชพฤกษ์ / วัดพระเงิน (ผู้ใช้ให้มา 6 ต.ค. 69)"]];
+function gload(){try{var x=JSON.parse(localStorage.getItem("floodgauges")||"null");if(x&&x.length===G.length)x.forEach(function(v,i){G[i][1]=v[0];G[i][2]=v[1]});if(x&&x.w)document.getElementById("warn").value=x.w}catch(e){}}
+function gsave(){try{var x=G.map(function(g){return [g[1],g[2]]});x.w=document.getElementById("warn").value;localStorage.setItem("floodgauges",JSON.stringify(x))}catch(e){}}
+function gstat(){var w=parseFloat(document.getElementById("warn").value);G.forEach(function(g,i){var r=parseFloat(g[1]),b=parseFloat(g[2]),t,c;
+ if(isNaN(r)){t="ยังไม่มีข้อมูล";c="var(--mute)"}else if(!isNaN(b)&&r>=b){t="ล้นตลิ่ง";c="var(--s3)"}else if(r>=w){t="เกินจุดเฝ้าระวัง";c="var(--s2)"}else{t="ต่ำกว่าจุดเฝ้าระวัง";c="var(--s0)"}
+ if(!isNaN(r)&&!isNaN(b)&&r<b)t+=" (ต่ำกว่าตลิ่ง "+(b-r).toFixed(2)+" ม.)";
+ var e=document.getElementById("gs"+i);e.textContent=t;e.style.color=c})}
+function gbuild(){var h="";G.forEach(function(g,i){h+="<tr><td>"+g[0]+(g[3]?"<small>"+g[3]+"</small>":"")+'</td><td><input type="number" step="0.01" data-i="'+i+'" data-k="1" value="'+g[1]+'"></td><td><input type="number" step="0.01" data-i="'+i+'" data-k="2" value="'+g[2]+'"></td><td class="sb" id="gs'+i+'"></td></tr>'});
+ document.querySelector("#gt tbody").innerHTML=h;
+ document.querySelectorAll("#gt input").forEach(function(e){e.addEventListener("input",function(){G[e.dataset.i][e.dataset.k]=e.value;gsave();gstat()})});
+ document.getElementById("warn").addEventListener("input",function(){gsave();gstat()})}
+gload();gbuild();gstat();
+</script>
+</body>
+</html>
